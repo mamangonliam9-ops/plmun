@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: plmun-student-voice
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PASSWORD_SALT
+        generateValue: true
+      - key: DATABASE_PATH
+        value: /var/data/plmun.db
+    disk:
+      name: plmun-data
+      mountPath: /var/data
+      sizeGB: 1

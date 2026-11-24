@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">PLMUN campus</title>
+  <desc id="desc">Abstract campus-inspired landscape background.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d8f0e0"/>
+      <stop offset="100%" stop-color="#84bfa5"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#f3f8f5"/>
+      <stop offset="100%" stop-color="#dfece4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="980" cy="170" r="120" fill="#eaf7ef" opacity="0.9"/>
+  <path d="M0 555 C180 500, 260 510, 370 555 S680 620, 800 570 S1060 500, 1200 565 L1200 900 L0 900 Z" fill="#9fcab1"/>
+  <path d="M0 625 C180 580, 320 610, 470 650 S760 700, 1200 640 L1200 900 L0 900 Z" fill="#7da78e"/>
+  <g transform="translate(120,260)">
+    <rect x="0" y="180" width="180" height="180" rx="10" fill="#f7fbf8" opacity="0.8"/>
+    <rect x="230" y="140" width="240" height="220" rx="10" fill="#ebf5ee" opacity="0.9"/>
+    <rect x="520" y="120" width="210" height="240" rx="10" fill="#edf6f0" opacity="0.9"/>
+    <rect x="780" y="165" width="170" height="195" rx="10" fill="#f6faf7" opacity="0.8"/>
+    <rect x="40" y="210" width="90" height="150" fill="#c9ddcf"/>
+    <rect x="300" y="170" width="115" height="190" fill="#dfeee5"/>
+    <rect x="585" y="150" width="95" height="210" fill="#dcefe3"/>
+    <rect x="820" y="190" width="90" height="170" fill="#d9ebdf"/>
+    <rect x="65" y="155" width="40" height="55" fill="#5c8f78"/>
+    <rect x="332" y="120" width="45" height="50" fill="#5c8f78"/>
+    <rect x="615" y="100" width="45" height="50" fill="#5c8f78"/>
+    <rect x="842" y="145" width="45" height="45" fill="#5c8f78"/>
+  </g>
+  <path d="M170 470 L270 380 L340 430 L430 330 L520 390 L610 300 L700 360 L820 270 L930 340 L1050 290" stroke="#eaf7ef" stroke-width="8" fill="none" opacity="0.95"/>
+  <path d="M0 720 H1200" stroke="#f2fbf7" stroke-width="14" opacity="0.5"/>
+</svg>
